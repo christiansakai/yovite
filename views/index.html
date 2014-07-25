@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block nav %}
+    <a href = "/about"class="btn btn-inverse" id = "about">About</a>
+{% endblock %}
+
+{% block content %}
+  <form action="/" method="post" accept-charset="utf-8" class='login-form clearfix'>
+    <div class='row'>
+    <div class="col-lg-6">
+      <fieldset class='form-group'>
+        <label class='text-primary'>Event Name</label>
+        <input type="text" class='form-control' name="name" placeholder="Short and concise" required>
+      </fieldset>
+      <fieldset class='form-group'>
+        <label class='text-primary'>Yo Username</label>
+        <input type="text" class='form-control' name="host" placeholder="Your Yo username" required>
+      </fieldset>
+      <fieldset class='form-group'>
+        <label class='text-primary'>Minimum Attendance</label>
+        <input type="text" class='form-control' name="minCount" placeholder="Minimum attendance?" required>
+      </fieldset>
+      <fieldset class='form-group'>
+        <label class='text-primary'>Max Wait Time for Yo Back</label>
+        <input type="text" class='form-control' name="timeout" placeholder="Wait time in minutes" required>
+      </fieldset>
+    </div>
+    <div class="col-lg-6">
+      <fieldset class='form-group' id='add-friend-group'>
+        <div class='add-friend'>
+          <label class='text-primary'>Add Friends </label>
+          <label class='glyphicon glyphicon-plus text-primary btn btn-primary btn-sm'></label>
+          <label class='glyphicon glyphicon-minus text-danger btn btn-danger btn-sm'></label>
+        </div>
+        <input type="text" class='form-control' name="friends[]" placeholder="Friend's Yo username" id='friend1' required>
+      </fieldset>
+      {% if show_yovite_sent %}
+      <fieldset class='pull-right text-center img-rounded {{ animate }}'>
+        <h5 class='text-success'>YoVite Sent!</h5>
+      </fieldset>
+      {% endif %}
+    </div>
+  </div>
+    <div class="row center-block">
+      <div class='text-center btn-group'>
+        <a class="btn btn-info btn-lg" href='/'>Refresh Form</a>
+        <input type="submit" value="Send YoVite" class='btn btn-success btn-lg'>
+    </div>
+    </div>
+  </form>
+</div>
+{% endblock %}
