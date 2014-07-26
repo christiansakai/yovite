@@ -1,6 +1,13 @@
 #YoVite
 A Yo Hackathon project.  NYC Saturday June 26th 2014 at Bitly HQ.
 
+#How to use
+1. Clone this repo
+2. `npm install`
+3. `npm start`
+4. Go to localhost:3000
+5. Fill the form and send Yovite!
+
 ##Contributors
 * Nathan Epstein (https://github.com/NathanEpstein)
 * Christian
