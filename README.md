@@ -54,4 +54,6 @@ Yep. The host and all invitees need a YO username.
 Junior developers at Fullstack Academy of Code (http://www.fullstackacademy.com).
 
 #Possible Bug
-Right now, we actually don't need the API key from Yo.  Instead, we can generate our own API Key to interact with Yo backend.  In the near future, Yo developers might want to fix this issue, which will render our app obsolete.
+* Right now, we actually don't need the API key from Yo.  Instead, we can generate our own API Key to interact with Yo backend.  In the near future, Yo developers might want to fix this issue, which will render our app obsolete.
+
+* Form validator doesn't work with added new friends.

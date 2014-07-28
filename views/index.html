@@ -10,19 +10,23 @@
     <div class="col-lg-6">
       <fieldset class='form-group'>
         <label class='text-primary'>Event Name</label>
-        <input type="text" class='form-control' name="name" placeholder="Short and concise" required>
+        <input type="text" class='form-control' name="name" placeholder="Short and concise" data-validation="alphanumeric" data-validation-help="example: EATALYFRI7PM" required>
       </fieldset>
       <fieldset class='form-group'>
         <label class='text-primary'>Yo Username</label>
-        <input type="text" class='form-control' name="host" placeholder="Your Yo username" required>
+        <input type="text" class='form-control' name="host" placeholder="Your Yo username" data-validation="alphanumeric" data-validation-help="example: YOADAMB" required>
       </fieldset>
       <fieldset class='form-group'>
         <label class='text-primary'>Minimum Attendance</label>
-        <input type="text" class='form-control' name="minCount" placeholder="Minimum attendance?" required>
+        <input type="text" class='form-control' name="minCount" placeholder="Minimum attendance?" data-validation="number" data-validation-allowing="range[1;100]" data-validation-help='example: 2' required>
       </fieldset>
       <fieldset class='form-group'>
         <label class='text-primary'>Max Wait Time for Yo Back</label>
-        <input type="text" class='form-control' name="timeout" placeholder="Wait time in minutes" required>
+        <input type="text" class='form-control' name="timeout" placeholder="Wait time in minutes" data-validation="number" data-validation-allowing="float" data-validation-help='example: 5 or even 0.25' required>
+      </fieldset>
+      <fieldset class='form-group'>
+        <label class='text-primary'>Optional Link</label>
+        <input type="text" class='form-control' name="link" placeholder="Optional Link to include in YoVite" data-validation="url" data-validation-help='example: http://www.eataly.com/nyc-la-piazza'>
       </fieldset>
     </div>
     <div class="col-lg-6">
@@ -32,7 +36,7 @@
           <label class='glyphicon glyphicon-plus text-primary btn btn-primary btn-sm'></label>
           <label class='glyphicon glyphicon-minus text-danger btn btn-danger btn-sm'></label>
         </div>
-        <input type="text" class='form-control' name="friends[]" placeholder="Friend's Yo username" id='friend1' required>
+        <input type="text" class='form-control' name="friends[]" placeholder="Friend's Yo username" id='friend1' data-validation="alphanumeric" data-validation-help="example: NEPSTEIN" required>
       </fieldset>
       {% if show_yovite_sent %}
       <fieldset class='pull-right text-center img-rounded {{ animate }}'>

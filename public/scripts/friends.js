@@ -3,7 +3,8 @@ $(document).ready(function() {
   var friendCount = 1;
   var addFriend = function() {
     friendCount++;
-    var friend = "<input type=\"text\" class=\'form-control\' name=\"friends[]\" placeholder=\"Friend\'s Yo username\"" + " id='friend" + friendCount + "'required>"
+    var friend = "<input type=\"text\" class=\'form-control\' name=\"friends[]\" placeholder=\"Friend\'s Yo username\"" + " id='friend" + friendCount + "' data-validation='alphanumeric'" + "data-validation-help='example: NEPSTEIN'" + "required>";
+
     $('#add-friend-group').append(friend);
   }
 
@@ -19,3 +20,8 @@ $(document).ready(function() {
 
   $('.glyphicon-minus').on('click', removeFriend);
 });
+
+
+
+
+
