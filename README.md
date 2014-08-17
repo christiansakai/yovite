@@ -10,7 +10,7 @@ A Yo Hackathon project.  NYC Saturday June 26th 2014 at Bitly HQ.
 
 ##Contributors
 * Nathan Epstein (https://github.com/NathanEpstein)
-* Christian
+* Christian (https://github.com/fnuchristian)
 * Adam Barcan (https://github.com/Adam262)
 
 ##Technologies

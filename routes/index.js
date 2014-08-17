@@ -44,11 +44,28 @@ router.post('/', function(req, res) {
     console.log('\n');
 
     for (var i = 0, l = event.friends.length; i < l; i++) {
-      var initYo = 'curl --data "api_token='
-                    + key
-                    + '&username='
-                    + event.friends[i].toUpperCase()
-                    + '" http://api.justyo.co/yo/';
+      if (event.link !== ''){
+              var initYo = 'curl --data "api_token='
+                      + key
+                      + '&username='
+                      + event.friends[i].toUpperCase()
+                      +'&link='
+                      +event.link
+                      + '" http://api.justyo.co/yo/';
+           }
+      else{
+            var initYo = 'curl --data "api_token='
+                      + key
+                      + '&username='
+                      + event.friends[i].toUpperCase()
+                      + '" http://api.justyo.co/yo/';
+           }
+
+       var subscribeToService = 'curl --data "api_token='
+                  + key
+                  + '&username='
+                  + 'yovite'
+                  + '" http://api.justyo.co/yo/';
 
       child = exec(initYo, function(a, b, c) {
         console.log('init Yo: ');
