@@ -54,15 +54,17 @@ Yep. The host and all invitees need a YO username.
 Web developers at Fullstack Academy of Code (http://www.fullstackacademy.com).
 
 ###SCREENSHOTS
-![YoVite landing page](etc/yoviteLanding.png)
 *Starting Page*
-![YoVite form validation](etc/yoviteValidated.png)
-*Validation*
-![YoVite form filled](etc/yoviteFilled.png)
-*Form Filled*
-![YoVite YO received](etc/yoviteReceived.png)
-*YoVite Received*
+![YoVite landing page](etc/yoviteLanding.png)
 
+*Validation*
+![YoVite form validation](etc/yoviteValidated.png)
+
+*Form Filled*
+![YoVite form filled](etc/yoviteFilled.png)
+
+*YoVite Received*
+![YoVite YO received](etc/yoviteReceived.png)
 
 #Possible Bug
 * Right now, we actually don't need the API key from Yo.  Instead, we can generate our own API Key to interact with Yo backend.  In the near future, Yo developers might want to fix this issue, which will render our app obsolete.
