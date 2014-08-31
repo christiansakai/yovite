@@ -53,11 +53,15 @@ Yep. The host and all invitees need a YO username.
 ##Who are you?
 Web developers at Fullstack Academy of Code (http://www.fullstackacademy.com).
 
-##SCREENSHOTS
-![YoVite landing page](etc/yoViteLanding.png)
-![YoVite form validation](etc/yoViteValidation.png)
-![YoVite form filled](etc/yoViteFilled.png)
-![YoVite YO received](etc/yoViteReceived.png)
+###SCREENSHOTS
+![YoVite landing page](etc/yoviteLanding.png)
+*Starting Page*
+![YoVite form validation](etc/yoviteValidation.png)
+*Validation*
+![YoVite form filled](etc/yoviteFilled.png)
+*Form Filled*
+![YoVite YO received](etc/yoviteReceived.png)
+*YoVite Received*
 
 
 #Possible Bug
