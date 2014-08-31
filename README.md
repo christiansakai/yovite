@@ -56,7 +56,7 @@ Web developers at Fullstack Academy of Code (http://www.fullstackacademy.com).
 ###SCREENSHOTS
 ![YoVite landing page](etc/yoviteLanding.png)
 *Starting Page*
-![YoVite form validation](etc/yoviteValidation.png)
+![YoVite form validation](etc/yoviteValidated.png)
 *Validation*
 ![YoVite form filled](etc/yoviteFilled.png)
 *Form Filled*
