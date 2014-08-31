@@ -51,7 +51,10 @@ Concise and meaningful. Like: SOCCER2NITECP, FRI730NATEAPT or DRINK2NITE8EATALY.
 Yep. The host and all invitees need a YO username.
 
 ##Who are you?
-Junior developers at Fullstack Academy of Code (http://www.fullstackacademy.com).
+Web developers at Fullstack Academy of Code (http://www.fullstackacademy.com).
+
+##SCREENSHOTS
+
 
 #Possible Bug
 * Right now, we actually don't need the API key from Yo.  Instead, we can generate our own API Key to interact with Yo backend.  In the near future, Yo developers might want to fix this issue, which will render our app obsolete.
