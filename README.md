@@ -64,7 +64,7 @@ Web developers at Fullstack Academy of Code (http://www.fullstackacademy.com).
 ![YoVite form filled](etc/yoviteFilled.png)
 
 *YoVite Received*
-![YoVite YO received](etc/yoviteReceived.png)
+![YoVite YO received](etc/yoviteReceived.PNG)
 
 #Possible Bug
 * Right now, we actually don't need the API key from Yo.  Instead, we can generate our own API Key to interact with Yo backend.  In the near future, Yo developers might want to fix this issue, which will render our app obsolete.
