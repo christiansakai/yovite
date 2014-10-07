@@ -1,5 +1,5 @@
 #YoVite
-A Yo Hackathon project.  NYC Saturday June 26th 2014 at Bitly HQ.
+A Yo Hackathon project.  NYC Saturday June 26th 2014 at Bitly HQ.  Hacks into Yo's User Creation System to create new users with names based on the message you want to send.
 
 #How to use
 1. Clone this repo
